@@ -100,12 +100,12 @@ A Flask-based web application for managing student attendance, exams, and quizze
 
 1. Create a MySQL database for the application:
    ```sql
-   CREATE DATABASE sley_db;
+   CREATE DATABASE tracker_db;
    ```
 
 2. Use the following SQL to create the required tables:
    ```sql
-   USE sley_db;
+   USE tracker_db;
 
    CREATE TABLE student (
      id INT AUTO_INCREMENT PRIMARY KEY,
@@ -146,7 +146,7 @@ A Flask-based web application for managing student attendance, exams, and quizze
    DB_HOST=localhost
    DB_USER=your_database_username
    DB_PASSWORD=your_database_password
-   DB_NAME=sley_db
+   DB_NAME=tracker_db
    SECRET_KEY=your_secret_key_here
    ```
 
